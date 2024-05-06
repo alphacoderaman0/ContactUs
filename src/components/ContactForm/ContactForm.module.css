@@ -7,3 +7,34 @@
     display: flex;
     gap:24px;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formController{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+    justify-content: center;
+    position: relative;
+}
+.formController input{
+    height: 40px;
+    padding: 0px  8px;
+}
+.formController label{
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px 10px ;
+  background-color: #ffffff;
+}
