@@ -2,10 +2,12 @@
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 25px;
+    align-items: end;
 }
 .topBtn{
     display: flex;
-    gap:24px;
+    gap: 32px;
 }
 .form{
     display: flex;
@@ -14,6 +16,7 @@
 }
 .form form{
     display: flex;
+    padding-bottom: 20px;
     flex-direction: column;
     gap: 20px;
 }
@@ -27,7 +30,7 @@
 }
 .formController input{
     height: 40px;
-    padding: 0px  8px;
+    padding: 0 8px;
 }
 .formController label{
   position: absolute;
@@ -37,4 +40,7 @@
   font-weight: 500;
   padding: 0px 10px ;
   background-color: #ffffff;
+}
+.formController textarea{
+    padding: 8px;
 }

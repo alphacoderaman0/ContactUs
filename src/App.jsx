@@ -6,7 +6,7 @@ import ContactForm from './components/ContactForm/ContactForm';
 
 const App = () => {
   return (
-    <div >
+    <div style={{paddingLeft:'200px', paddingRight:'200px'}} >
       <Navigation/>
       <ContactHeader/>
       <ContactForm/>

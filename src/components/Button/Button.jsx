@@ -3,10 +3,10 @@ import { MdOutlineMessage } from "react-icons/md";
 import styles from './Button.module.css';
 import PropTypes from 'prop-types';
 const Button = (props) => {
-    const {isOutline,icon,text} = props
+    const {isOutline,icon,text,onclick} = props
   return (
 
-    <button className={isOutline ? styles.outlineBtn :styles.primaryBtn}>{icon}{text}</button>
+    <button onClick={onclick} className={isOutline ? styles.outlineBtn :styles.primaryBtn}>{icon}{text}</button>
     
   )
 }
